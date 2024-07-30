@@ -69,10 +69,6 @@ def spilting_pdf_file(inPdfFile,outputDirectory):
   return 
       
    
-      
-   
-    
-   
 if __name__=="__main__":
     pdfFilePath = "C://Users//LENOVO//Downloads//Rakesh_MBA_resume.pdf"
     print("\nReading PDF file ...\n1.Read All pages \n2.Read Specific page \n3.Merge PDFs\n4.Spiliting Pdf\n5.addwater Mark3",end="\n")
