@@ -18,6 +18,6 @@ elif unit=="F" or unit=="f":
 elif unit=="k" or unit=="k":
    C = round((degress-273),2)#ormula for kelvin to celsius = c-273k
    print(str(C)+"C")
-   F = round((9/5*c)+32,2)#formula for kelvin to fahernhit f = (c*9/5)+32
+   F = round((9/5*degress)+32,2)#formula for kelvin to fahernhit f = (c*9/5)+32
    print(str(F)+"F")
    print(str(degress)+"K")
